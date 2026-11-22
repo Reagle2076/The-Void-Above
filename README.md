@@ -72,6 +72,8 @@ Code: [`MeleeEnemyControl.cs`](Scripts/EnemyAI/MeleeEnemyControl.cs) · [`MarkCo
 
 ## Opening Cutscene
 
+![Opening cutscene](docs/images/cutscene.gif)
+
 A comic-book style intro told across several pages. Panels and captions appear
 one at a time. Clicking finishes the current caption or moves to the next panel.
 Finished pages fade out before the next one starts. At the end, or on **Skip**,
@@ -81,7 +83,7 @@ Code: [`FlowControl.cs`](Scripts/Cutscene/FlowControl.cs) ([original](https://gi
 
 ## UI
 
-<img src="docs/images/key-bindings.jpg" width="420" alt="Key Bindings screen">
+<img src="docs/images/key-bindings.gif" width="560" alt="Key Bindings screen">
 
 - **Key Bindings screen**: shows keyboard and mouse controls (move, up/down,
   decelerate, shoot, dash)
