@@ -21,13 +21,35 @@ Inspired by *Journey* and *Death Stranding*.
 
 I was one of the team's programmers, working on gameplay AI, the cutscene and UI:
 
-- **Enemy AI**: wrote the melee enemy state machine and added patrol and
-  leash/return behavior to all enemies
+- **Enemy AI**: wrote the melee enemy state machine, and added patrol and
+  leash/return behavior to all enemies, including the ranged enemy
 - **Opening cutscene**: built the comic-style intro sequence with page
   transitions, a skip button and async loading into the first level
-- **UI**: designed and built the Key Bindings screen (using the Hexart UI kit)
-  and the ammo HUD
+- **UI**: designed and built the Key Bindings screen (using the Hexart UI kit),
+  plus the ammo HUD and the player's ammo count logic
 - **Enemy feedback**: added the "!" aggro marker shown when an enemy spots the player
+
+## Design Notes
+
+**Why enemies return home (leash behavior)**
+During playtesting I noticed that once the player triggered an enemy, it would
+follow them across the whole map unless they killed it. I added a leash: if an
+enemy is pulled too far from its patrol area, it gives up the chase, returns to
+its spawn point and resumes patrolling. Fights stay local, and players can
+choose to disengage instead of being forced to fight everything they wake up.
+
+**Why a "!" appears above enemies**
+Players need to know the moment they've been spotted. As a longtime player
+myself, I've seen this convention in many games, and it works because players
+read it instantly. The "!" gives a clear, readable signal before the enemy
+attacks, so damage never feels unfair.
+
+**Why the cutscene uses two-step clicks**
+Players read at different speeds. Some like watching captions type out; others
+want the full text right away. The first click completes the current caption,
+and the second moves to the next panel, so both styles are supported. For
+returning players who've already seen the story, a Skip button jumps straight
+to gameplay.
 
 ## Enemy AI
 
