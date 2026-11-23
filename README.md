@@ -53,7 +53,13 @@ to gameplay.
 
 ## Enemy AI
 
-![Enemy AI: patrol, spot the player, charge and attack](docs/images/enemy-ai.gif)
+**Spot & attack:** patrolling enemy sees the player, shows "!", charges and attacks
+
+<img src="docs/images/enemy-ai.gif" width="49%" alt="Enemy spots the player and attacks"> <img src="docs/images/enemy-ai-2.gif" width="49%" alt="Enemy spots the player and attacks">
+
+**Leash & return:** pulled out of its area, the enemy shows a green return marker and flies back to its post
+
+<img src="docs/images/enemy-return.gif" width="49%" alt="Enemy returns to its post"> <img src="docs/images/enemy-return-2.gif" width="49%" alt="Enemy returns to its post">
 
 Each melee enemy runs a small state machine:
 
