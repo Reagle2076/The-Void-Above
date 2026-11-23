@@ -53,7 +53,7 @@ to gameplay.
 
 ## Enemy AI
 
-![Enemy spotting the player](docs/images/enemy-aggro.jpg)
+![Enemy AI: patrol, spot the player, charge and attack](docs/images/enemy-ai.gif)
 
 Each melee enemy runs a small state machine:
 
