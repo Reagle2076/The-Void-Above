@@ -27,8 +27,8 @@ I was one of the team's programmers, working on gameplay AI, the cutscene and UI
 
 - **Enemy AI**: wrote the melee enemy state machine, and added patrol and
   leash/return behavior to all enemies, including the ranged enemy
-- **Opening cutscene**: built the comic-style intro sequence with page
-  transitions, a skip button and async loading into the first level
+- **Opening cutscene**: built the comic-style intro sequence with typewriter
+  captions, page transitions, a skip button and async loading into the first level
 - **UI**: designed and built the Key Bindings screen (using the Hexart UI kit),
   plus the ammo HUD and the player's ammo count logic
 - **Enemy feedback**: added the "!" aggro marker shown when an enemy spots the player
@@ -84,12 +84,13 @@ Code: [`MeleeEnemyControl.cs`](Scripts/EnemyAI/MeleeEnemyControl.cs) · [`MarkCo
 
 ![Opening cutscene](docs/images/cutscene.gif)
 
-A comic-book style intro told across several pages. Panels and captions appear
-one at a time. Clicking finishes the current caption or moves to the next panel.
+A comic-book style intro told across several pages. Panels appear one at a time,
+and each caption types out letter by letter. Clicking finishes the current caption or moves to the next panel.
 Finished pages fade out before the next one starts. At the end, or on **Skip**,
 the first level loads with a progress bar.
 
-Code: [`FlowControl.cs`](Scripts/Cutscene/FlowControl.cs) ([original](https://github.com/ahnafnafee/TheVoidAbove/blob/main/Assets/_Project/Scripts/CutScene/FlowControl.cs))
+Code: [`FlowControl.cs`](Scripts/Cutscene/FlowControl.cs) ([original](https://github.com/ahnafnafee/TheVoidAbove/blob/main/Assets/_Project/Scripts/CutScene/FlowControl.cs)) ·
+[`TypeWriter.cs`](Scripts/Cutscene/TypeWriter.cs) ([original](https://github.com/ahnafnafee/TheVoidAbove/blob/main/Assets/_Project/Scripts/CutScene/TypeWriter.cs))
 
 ## UI
 
