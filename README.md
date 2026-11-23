@@ -1,9 +1,11 @@
 # The Void Above
 
-![The Void Above](docs/images/gameplay-1.jpg)
+![The Void Above](docs/images/hero.jpg)
 
-A 3D sci-fi action-adventure built in **Unity** by **Void Gaming**, a 10-person
-student studio at **Drexel University** (GMAP 378, 2020–2021).
+A 3D sci-fi action-adventure built in **Unity** by **Void Gaming**, a student
+studio at **Drexel University**. The project started in GMAP 377 (Game Development
+Workshop I, Fall 2020) with another team; in GMAP 378 (Workshop II, Winter 2021)
+my team joined to co-design and build the game through its release.
 
 You play a courier who must deliver a package through deep space during an
 intergalactic conflict, flying through debris with thrusters and dashes while
@@ -13,7 +15,7 @@ Inspired by *Journey* and *Death Stranding*.
 **▶ Download (Windows):** [itch.io](https://ahnafnafee.itch.io/thevoidabove) ·
 **Full team project:** [ahnafnafee/TheVoidAbove](https://github.com/ahnafnafee/TheVoidAbove)
 
-**Team & pipeline:** 10 developers · Unity 3D · Perforce (version control) · Wwise (audio)
+**Pipeline:** Unity 3D · Perforce (version control) · Wwise (audio)
 
 ---
 
@@ -98,7 +100,7 @@ Code: [`FlowControl.cs`](Scripts/Cutscene/FlowControl.cs) ([original](https://gi
 
 ## Screenshots
 
-<img src="docs/images/gameplay-2.jpg" width="49%"> <img src="docs/images/enemy-aggro-2.jpg" width="49%">
+<img src="docs/images/screenshot-1.jpg" width="49%"> <img src="docs/images/screenshot-2.jpg" width="49%">
 
 ## What I'd Do Differently
 
@@ -123,7 +125,8 @@ Unity (C#) · Cinemachine · Wwise · Perforce · Windows
 
 ## Team
 
-Void Gaming: Peng, John, Ivan, Aman, David, Dylan, Ahnaf, Dawei, Jay, Robert
+Developers credited in the team repository across both course terms:
+Peng, John, Ivan, Aman, David, Dylan, Ahnaf, **Dawei (me)**, Jay, Robert
 
 ## About This Repository
 
