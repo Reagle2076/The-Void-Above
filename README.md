@@ -94,6 +94,23 @@ Code: [`FlowControl.cs`](Scripts/Cutscene/FlowControl.cs) ([original](https://gi
 
 <img src="docs/images/gameplay-2.jpg" width="49%"> <img src="docs/images/enemy-aggro-2.jpg" width="49%">
 
+## What I'd Do Differently
+
+**Playtest movement feel early, with outsiders.**
+Replaying the game five years later, the movement felt hard to control: too much
+inertia to stop or turn cleanly, and vertical movement on Space/Shift felt awkward.
+As a team we focused on adding features and mostly tested among ourselves, so we
+got used to the controls instead of fixing them. Today I would bring in outside
+playtesters from the first prototype and treat movement feel as a top priority,
+since in a flying game it's what players experience every second.
+
+**Write AI code that scales.**
+Looking back at my enemy AI, I'd make three changes:
+- Cache the player reference instead of calling `GameObject.Find("Player")` every frame
+- Use an `enum` for AI states instead of magic numbers (0–3)
+- Expose tuning values (speed, ranges, timings) in the Inspector so designers can
+  adjust them without touching code
+
 ## Tech
 
 Unity (C#) · Cinemachine · Wwise · Perforce · Windows
