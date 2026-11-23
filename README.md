@@ -1,6 +1,8 @@
 # The Void Above
 
-![The Void Above](docs/images/hero.jpg)
+[![The Void Above – watch the trailer](docs/images/hero.jpg)](https://youtu.be/yDqHfcRXDhk)
+
+**▶ [Watch the gameplay trailer (51 s)](https://youtu.be/yDqHfcRXDhk)**
 
 A 3D sci-fi action-adventure built in **Unity** by **Void Gaming**, a student
 studio at **Drexel University**. The project started in GMAP 377 (Game Development
